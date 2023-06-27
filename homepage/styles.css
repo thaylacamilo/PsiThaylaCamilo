@@ -1,0 +1,198 @@
+.grid {
+  display: grid;
+  grid-template-columns: 0.7fr 3fr;
+  height: 100vh;
+  border: 0px solid #ccc;
+}
+.grid_2 {
+  display: grid;
+  grid-template-columns: 0.7fr 3fr;
+  height: 65vh;
+  border:0px solid #ccc;
+}
+.sub_grid_palestrantes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100vh;
+  border: 0px solid #ccc;
+}
+
+.left {
+  display: grid;
+  grid-gap: 5px;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  background-color: rgba(79,71,78,1);
+}
+
+.right {
+  display: grid;
+  grid-gap: 5px;
+  overflow: auto;
+}
+
+.grid_center_upper {
+  background: url("images/index/mao.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid_programacao_background {
+  background: url("images/programacao/fundo.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+.grid_palestrantes_background {
+  position: relative;
+  background: url("images/palestrantes/fundo.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-position: center;
+}
+.grid_local_background {
+  background: url("images/local/fundo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1200px 500px;
+}
+.grid_yellow {
+  background: rgba(255,213,79,1);
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  word-wrap: break-word;
+  font-variant-ligatures: none;
+  font-family: Roboto;
+  font-size: 13pt;
+  line-height: 1.55;
+  color: rgba(33,33,33,1);
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.grid_yellow_2 {
+  background: rgba(255,213,79,1);
+  height: 10px;
+}
+
+.grid_yellow_3 {
+  background: rgba(255,213,79,1);
+  height: 200px;
+  align-content: space-around;
+}
+
+.grid_white {
+  background: white;
+}
+
+h1 {
+    -webkit-text-size-adjust: 100%;
+    -webkit-box-direction: normal;
+    word-wrap: break-word;
+    font-variant-ligatures: none;
+    font-family: Roboto;
+    font-size: 28pt;
+    line-height: 1.21;
+    font-weight: 100;
+    color: rgba(33,33,33,1);
+    pointer-events: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.h1_local {
+    -webkit-text-size-adjust: 100%;
+    -webkit-box-direction: normal;
+    word-wrap: break-word;
+    font-variant-ligatures: none;
+    font-family: Roboto;
+    font-size: 20pt;
+    line-height: 1.21;
+    font-weight: 100;
+    color: rgba(33,33,33,1);
+    pointer-events: none;
+    text-align: left;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.img_local {
+  padding: 50px;
+}
+
+p {
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  word-wrap: break-word;
+  font-variant-ligatures: none;
+  font-family: Roboto;
+  font-size: 13pt;
+  line-height: 1.55;
+  color: rgba(33,33,33,1);
+  text-align: justify;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-left:  20px;
+}
+
+.text_subtitle {
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  word-wrap: break-word;
+  font-variant-ligatures: none;
+  font-family: Roboto;
+  font-size: 13pt;
+  line-height: 1.55;
+  color: rgba(33,33,33,1);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.text_title_name {
+  font-family: 'Brush Script MT', cursive;
+  color: rgba(255,255,255,1);
+  text-align: right;
+  margin-right: 20px;
+}
+.text_title_name_programacao {
+  font-family: cursive;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  font-size: 50px;
+}
+.text_title_name_local {
+  font-family: cursive;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  font-size: 50px;
+}
+.text_title_name_palestrantes {
+  font-family: cursive;
+  color: darkgreen;
+  text-align: center;
+  font-size: 50px;
+}
+.text_palestrantes {
+  font-family: sans-serif;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.a_in_use {
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-color: #FFC433;
+  margin: 0px 40px;
+}
